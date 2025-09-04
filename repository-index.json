@@ -1,0 +1,165 @@
+{
+  "repositories": {
+    "POCs": [
+      {
+        "name": "template-poc-with-apis",
+        "remote": "https://github.com/ldraney/template-poc-with-apis.git",
+        "path": "POCs/template-poc-with-apis", 
+        "description": "Template POC with API integrations"
+      },
+      {
+        "name": "template-poc",
+        "remote": "https://github.com/ldraney/template-poc.git",
+        "path": "POCs/template-poc",
+        "description": "Basic template POC"
+      },
+      {
+        "name": "monday-api",
+        "remote": "https://github.com/ldraney/monday-api.git",
+        "path": "POCs/monday-api",
+        "description": "Monday.com API integration POC"
+      }
+    ],
+    "infra": [
+      {
+        "name": "infra-templates",
+        "remote": "https://github.com/ldraney/infra-templates.git",
+        "path": "infra",
+        "description": "Infrastructure templates, Cloudflare configs, Docker files, Fly configs"
+      }
+    ],
+    "microservices": [
+      {
+        "name": "client-service",
+        "remote": "https://github.com/ldraney/client-service.git",
+        "path": "microservices/client-service",
+        "description": "Client management microservice"
+      },
+      {
+        "name": "formula-service", 
+        "remote": "https://github.com/ldraney/formula-service.git",
+        "path": "microservices/formula-service",
+        "description": "Formula management microservice"
+      },
+      {
+        "name": "pricing-service",
+        "remote": "https://github.com/ldraney/pricing-service.git", 
+        "path": "microservices/pricing-service",
+        "description": "Pricing calculation microservice"
+      },
+      {
+        "name": "purchase-order-service",
+        "remote": "https://github.com/ldraney/purchase-order-service.git",
+        "path": "microservices/purchase-order-service", 
+        "description": "Purchase order management microservice"
+      },
+      {
+        "name": "cost-calculator-service",
+        "remote": "https://github.com/ldraney/cost-calculator-service.git",
+        "path": "microservices/cost-calculator-service",
+        "description": "Cost calculation microservice"
+      },
+      {
+        "name": "email-service",
+        "remote": "https://github.com/ldraney/email-service.git",
+        "path": "microservices/email-service",
+        "description": "Email notification microservice"
+      },
+      {
+        "name": "monday-api",
+        "remote": "https://github.com/ldraney/monday-api.git",
+        "path": "microservices/monday-api",
+        "description": "Monday.com API integration service"
+      },
+      {
+        "name": "namespace-service",
+        "remote": "https://github.com/ldraney/namespace-service.git",
+        "path": "microservices/namespace-service",
+        "description": "Namespace management microservice"
+      },
+      {
+        "name": "whitelabel-service",
+        "remote": "https://github.com/ldraney/whitelabel-service.git",
+        "path": "microservices/whitelabel-service",
+        "description": "White label solution microservice"
+      }
+    ],
+    "namespaces": [
+      {
+        "name": "annabelle",
+        "remote": "https://github.com/ldraney/annabelle.git",
+        "path": "namespaces/annabelle",
+        "description": "Annabelle namespace project"
+      },
+      {
+        "name": "tamara",
+        "remote": "https://github.com/ldraney/tamara.git", 
+        "path": "namespaces/tamara",
+        "description": "Tamara namespace project"
+      },
+      {
+        "name": "mariana-namespace",
+        "remote": "https://github.com/ldraney/mariana-namespace.git",
+        "path": "namespaces/mariana", 
+        "description": "Mariana namespace project"
+      },
+      {
+        "name": "batch-webhook-fly",
+        "remote": "https://github.com/ldraney/batch-webhook-fly.git",
+        "path": "namespaces/batch-webhook-fly",
+        "description": "Batch webhook service for Fly.io"
+      },
+      {
+        "name": "nextjs-flyio-webhook-template",
+        "remote": "https://github.com/ldraney/nextjs-flyio-webhook-template.git",
+        "path": "namespaces/nextjs-flyio-webhook-template",
+        "description": "Next.js template for Fly.io webhooks"
+      }
+    ],
+    "data_libraries": [
+      {
+        "name": "earth-harbor-formulas",
+        "remote": null,
+        "path": "data_libraries/earth-harbor-formulas",
+        "description": "Earth Harbor formula library",
+        "note": "Private data - no remote currently"
+      },
+      {
+        "name": "finalized_formulas", 
+        "remote": null,
+        "path": "data_libraries/finalized_formulas",
+        "description": "Finalized formula database",
+        "note": "Private data - no remote currently"
+      },
+      {
+        "name": "personal-care-science-formulas",
+        "remote": null,
+        "path": "data_libraries/personal-care-science-formulas", 
+        "description": "Personal care science formula library",
+        "note": "Private data - no remote currently"
+      }
+    ]
+  },
+  "special_repos": [
+    {
+      "name": "project-docs-hub",
+      "remote": "https://github.com/ldraney/project-docs-hub.git",
+      "path": "microservices/mo-api-service/project-docs-hub",
+      "description": "Centralized documentation hub"
+    }
+  ],
+  "setup_notes": {
+    "parent_directories": [
+      "POCs - Proof of concepts and experimental projects", 
+      "infra - Infrastructure templates and configurations",
+      "microservices - Individual microservice repositories",
+      "namespaces - Namespace-based project repositories", 
+      "data_libraries - Formula and data repositories"
+    ],
+    "prerequisites": [
+      "GitHub CLI installed and authenticated (gh auth login)",
+      "Git installed",
+      "Homebrew (will be installed if missing)"
+    ]
+  }
+}
